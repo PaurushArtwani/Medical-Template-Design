@@ -1,0 +1,163 @@
+.hero-section {
+  background-image: url("../../public/hero-bg.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding-top: 2rem;
+  padding-left:3rem;
+  padding-right: 3rem;
+}
+.main-content {
+  text-align: center;
+  color: white;
+}
+.main-content p {
+  padding: 13px;
+}
+.main-content h2 {
+  padding: 13px;
+}
+.main-content h6 {
+  color: red;
+}
+.card-section {
+  justify-content: center;
+}
+.card-sectin-items {
+  text-align: center;
+}
+.card-text p {
+  color: #26335d;
+}
+.card-sectin-items hr {
+  width: 20%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  border: 2px solid #e74040;
+  box-shadow: 1px 0px 2px 0px;
+}
+.department-items h2,
+p {
+  color: white;
+}
+.department-items-doctor img {
+  width: 100%;
+}
+.department-items hr {
+  width: 20%;
+  border: 3px solid #ee0a0a;
+}
+.department-items h6 {
+  color: red;
+}
+
+.product-description h5 {
+  color: black;
+}
+.product-description h6 {
+  color: #737373;
+}
+
+.product-description .card-title {
+  font-size: 15px;
+  color: red;
+}
+
+.product-card {
+  justify-content: center;
+}
+.product-description button {
+  background: transparent;
+  color: red;
+  border-radius: 50px;
+  border-color: red;
+}
+.client-description-items .card img {
+  max-width: 20%;
+  border-radius: 50%;
+}
+.client-description-items .card img {
+  margin: auto;
+}
+.client-description-items .card-text {
+  color: black;
+}
+.faq-items .card {
+  max-width: 400px;
+  min-height: 140px;
+}
+.faq-items .card-text {
+  color: black;
+}
+.subcribe span {
+  background: #fc724d;
+  color: white;
+  font-weight: 700;
+  border: 0px;
+}
+.subcribe {
+  width: 70%;
+  margin: auto;
+  min-height: 100px;
+}
+.subcribe .input-group {
+  min-height: 58px;
+}
+.footer-section-items p {
+  color: #737373;
+  font-weight: 500;
+}
+.footer-section-items a {
+  text-decoration: none;
+  color: #737373;
+}
+.get-in-touch {
+  text-align: center;
+}
+.get-in-touch svg {
+  color: red;
+}
+.social-media-items {
+  margin: auto;
+}
+.social-media-logos {
+  text-align: center;
+}
+.social-media-items span {
+  color: #737373;
+  font-weight: 600;
+}
+.social-media-logos svg path {
+  color: red;
+  font-size: 23px;
+}
+.facebook,
+.instagram,
+.twitter {
+  margin-right: 12px;
+  font-size: 23px;
+}
+
+@media only screen and (max-width: 767px) {
+  .product-description .card {
+    margin-bottom: 12px;
+  }
+  .card-sectin-items .card {
+    margin-bottom: 19px;
+  }
+  .client-description-items .card {
+    margin-bottom: 12px;
+  }
+  .faq-items .card {
+    margin: auto;
+  }
+  .subcribe {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .card-sectin-items .card {
+    height: 100%;
+  }
+}
