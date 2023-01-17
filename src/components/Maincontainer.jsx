@@ -14,11 +14,9 @@ import Socialmedia from "./FooterSection/Socialmedia";
 const Maincontainer = () => {
   return (
     <>
-      <Container fluid>
-        <Container>
-          <Navbarsection></Navbarsection>
-        </Container>
-      </Container>
+      <div className="nav-container">
+        <Navbarsection></Navbarsection>
+      </div>
 
       <Container fluid style={{ backgroundColor: "#26335D" }}>
         <Herosection />
