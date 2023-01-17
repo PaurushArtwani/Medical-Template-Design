@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Medical-Template-Design/static/css/main.5ca0bd8a.css",
+    "main.js": "/Medical-Template-Design/static/js/main.43bd7741.js",
+    "static/js/787.5352c3a1.chunk.js": "/Medical-Template-Design/static/js/787.5352c3a1.chunk.js",
+    "static/media/hero-bg.png": "/Medical-Template-Design/static/media/hero-bg.db3abd8e02d86d342443.png",
+    "static/media/logo.svg": "/Medical-Template-Design/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Medical-Template-Design/index.html",
+    "main.5ca0bd8a.css.map": "/Medical-Template-Design/static/css/main.5ca0bd8a.css.map",
+    "main.43bd7741.js.map": "/Medical-Template-Design/static/js/main.43bd7741.js.map",
+    "787.5352c3a1.chunk.js.map": "/Medical-Template-Design/static/js/787.5352c3a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ca0bd8a.css",
+    "static/js/main.43bd7741.js"
+  ]
+}
