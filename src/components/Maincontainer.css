@@ -4,8 +4,55 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
   padding-top: 2rem;
-  padding-left:3rem;
+  padding-left: 3rem;
   padding-right: 3rem;
+}
+.hero-section-join {
+  padding-top: 10%;
+}
+.hero-section-join p,
+h1,
+h4 {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.join-learn-button {
+  padding-top: 35px;
+}
+.hero-section-join button {
+  background-color: transparent;
+  border-color: #fc724d;
+}
+
+.hero-section-join button:hover {
+  background-color: #fc724d;
+  border-color: #fc724d;
+}
+.doctor-logo img {
+  margin-left: 65px;
+  margin-top: 35px;
+  max-width: 70%;
+}
+
+.nav-container {
+  position: absolute;
+  margin: 0 auto;
+  
+}
+
+.navbar-items a {
+  color: white;
+}
+.navbar-nav a {
+  text-align: end;
+}
+.nav-link {
+  text-align: end;
+}
+
+.navbar-section-items {
+  margin: initial;
 }
 .main-content {
   text-align: center;
@@ -155,6 +202,35 @@ p {
   .subcribe {
     width: 90%;
   }
+  .hero-section-join {
+    padding: 22px !important;
+  }
+
+  .join-learn-button {
+    padding: 0%;
+  }
+  .description-join {
+    margin: 0% !important;
+  }
+  .description-join h1 {
+    font-size: 40px;
+    margin-top: 12px;
+  }
+  .description-join h4 {
+    font-size: 18px;
+  }
+  .description-join p {
+    margin-bottom: 0%;
+  }
+  .navbar-items {
+    width: 73%;
+  }
+  .navbar-items {
+    width: 80%;
+  }
+  /* .navbar-nav a {
+    text-align: end !important;
+  } */
 }
 @media only screen and (min-width: 991px) {
   .card-sectin-items .card {

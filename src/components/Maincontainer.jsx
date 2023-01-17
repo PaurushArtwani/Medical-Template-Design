@@ -1,21 +1,24 @@
 import { Col, Container, Row } from "react-bootstrap";
-import Navbarsection from "./Header-Section/Navbarsection";
-import Herosection from "./Header-Section/Herosection";
-import Maincontent from "./Imperssions-Section/Maincontent";
-import Ourdepartment from "./Department-Section/Ourdepartment";
-import ProductDescription from "./Product-Section/ProductDescription";
-import Clientdescription from "./Client-Section/Clientdescription";
-import Faqdescription from "./FAQ-Section/Faqdescription";
-import Subscribe from "./Subscribe-Section/Subscribe";
-import Footer from "./Footer-Section/Footer";
-import Socialmedia from "./Footer-Section/Socialmedia";
+import "./Maincontainer.css";
+import Navbarsection from "./HeaderSection/Navbarsection";
+import Herosection from "./HeaderSection/Herosection";
+import Maincontent from "./ImperssionsSection/Maincontent";
+import Ourdepartment from "./DepartmentSection/Ourdepartment";
+import ProductDescription from "./ProductSection/ProductDescription";
+import Clientdescription from "./ClientSection/Clientdescription";
+import Faqdescription from "./FAQSection/Faqdescription";
+import Subscribe from "./SubscribeSection/Subscribe";
+import Footer from "./FooterSection/Footer";
+import Socialmedia from "./FooterSection/Socialmedia";
 
 const Maincontainer = () => {
   return (
     <>
-      <Navbarsection></Navbarsection>
+      <div className="nav-container">
+        <Navbarsection></Navbarsection>
+      </div>
 
-      <Container fluid style={{ height: "99vh", backgroundColor: "#26335D" }}>
+      <Container fluid style={{ backgroundColor: "#26335D" }}>
         <Herosection />
       </Container>
 
