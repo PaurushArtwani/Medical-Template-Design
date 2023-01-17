@@ -2,12 +2,13 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import "../Maincontainer.css";
 
 const Navbarsection = () => {
   return (
-    <div className="p-3">
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-        <Container>
+    <div className="row col-12 col-md-8 navbar-items">
+      <Navbar collapseOnSelect expand="lg" bg="" variant="light">
+        <Container style={{ margin: "initial" }}>
           <Navbar.Brand href="#home">Medical</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

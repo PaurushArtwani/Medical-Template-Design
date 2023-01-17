@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className="row footer-section p-5">
-        <div className="col-12 col-md-2 footer-section-items">
+        <div className="col-12 col-md-2 col-sm-6 col-xs-6 footer-section-items">
           <h5>Company Info</h5>
           <div>
             <p>
@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="col-12 col-md-2 footer-section-items">
+        <div className="col-12 col-md-2 col-sm-6 col-xs-6 footer-section-items">
           <h5>Legal</h5>
           <div>
             <p>
@@ -39,7 +39,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="col-12 col-md-2 footer-section-items">
+        <div className="col-12 col-md-2 col-sm-6 col-xs-6 footer-section-items">
           <h5>Features</h5>
           <div>
             <p>
@@ -56,7 +56,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="col-12 col-md-2 footer-section-items">
+        <div className="col-12 col-md-2 col-sm-6 col-xs-6 footer-section-items">
           <h5>Resources</h5>
           <div>
             <p>
@@ -92,7 +92,7 @@ const Footer = () => {
             <p>
               <a href="hiring">
                 <BsFillEnvelopeFill />
-                &nbsp; debra.holt@example.com{" "}
+                &nbsp; debra.holt@example.com
               </a>
             </p>
           </div>
